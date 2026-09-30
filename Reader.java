@@ -19,6 +19,6 @@ public class Reader
 
         float result = (float) n1 + n2;
 
-        System.out.printf("%-10s \n %.2f", name, result);
+        System.out.printf("%-10s%n%.2f", name, result);
     }
 }
